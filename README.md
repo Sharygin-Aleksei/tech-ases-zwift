@@ -1,4 +1,3 @@
-# tech-ases-zwift
 
 ### What I used?
 
