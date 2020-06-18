@@ -32,7 +32,7 @@ describe('EVENTS PAGE - Events changed after applying filters', () => {
     })
 
     it('should count the number of events', () => {
-        const eventsArray = $$(events_page.selectors.event);
+        const eventsArray = $$(events_page.selectors.EVENT);
         eventsCounter = eventsArray.length;
 
         expect(eventsCounter, 'There are no events at the events page').to.be.above(0);
@@ -60,7 +60,7 @@ describe('EVENTS PAGE - Events changed after applying filters', () => {
     })
 
     it('should check that number of events have changed', () => {
-        const eventsArray = $$(events_page.selectors.event);
+        const eventsArray = $$(events_page.selectors.EVENT);
         const numberOfEvents = eventsArray.length;
 
         expect(numberOfEvents).to.be.below(eventsCounter);

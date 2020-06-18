@@ -4,7 +4,7 @@ const selectors = {
     EVENTS_PAGE_HEADER: '//header[@id="events-header"]',
 
     // In most cases return more than one element
-    event: '//div[@class="tab-listing"]',
+    EVENT: '//div[@class="tab-listing"]',
 
     select: {
         SPORTS_SELECT: '//select[option[text() = "Sports"]]',
@@ -36,10 +36,6 @@ const select_values = {
     }
 }
 
-function getEventSportLabel(numberOfEvent) {
-    return '//div[@class="tab-listing"][' + numberOfEvent + ']//span[@class="map-sport-type"]'
-}
-
 module.exports = {
-    title, selectors, getEventSportLabel, select_values
+    title, selectors, select_values
 }
