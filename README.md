@@ -2,7 +2,7 @@
 
 ### What I used?
 
-  1. ```WebdriverIO``` - great API to work with UI 
+  1. ```WebdriverIO``` - framework with great API for UI
   2. ```Mocha + Chai(expect)``` - I used it for assertions.
   3. ```chromedriver``` - driver to run Chrome.
   
